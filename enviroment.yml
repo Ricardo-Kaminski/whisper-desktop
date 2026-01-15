@@ -1,0 +1,25 @@
+name: whisper-desktop
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # --- System & GUI Dependencies ---
+  - python=3.10
+  - tk              # Required for the Graphical User Interface
+  - pip
+  - zlib            # System library for linkage stability
+  - ffmpeg          # Essential for audio decoding/encoding
+
+  # --- Python Libraries & Drivers ---
+  - pip:
+    # Point to PyTorch repository with CUDA 12.1 support
+    - --extra-index-url https://download.pytorch.org/whl/cu121
+    
+    # Core AI & Audio Processing
+    - torch
+    - torchaudio
+    - faster-whisper
+    
+    # NVIDIA Libraries (Required for CUDA acceleration on Windows)
+    - nvidia-cublas-cu12
+    - nvidia-cudnn-cu12
