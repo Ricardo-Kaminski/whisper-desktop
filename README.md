@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 📖 The Context: Why I built this?
-As a Senior Data Scientist and Policy Consultant working with international organizations (like OECD) and government bodies, I often deal with **sensitive recordings** that cannot be uploaded to cloud-based transcription services due to strict data sovereignty and privacy regulations.
+As a Senior Data Scientist and Policy Consultant working with international organizations and government bodies, I often deal with **sensitive recordings** that cannot be uploaded to cloud-based transcription services due to strict data sovereignty and privacy regulations.
 
 I needed a tool that was:
 1.  **Secure:** 100% Offline (Air-gapped ready).
