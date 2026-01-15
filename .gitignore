@@ -1,10 +1,7 @@
-```text
-    __pycache__/
-    *.pyc
-    .vscode/
-    .idea/
-    *.txt
-    *.mp4
-    *.mp3
-    *.wav
-    ```
+__pycache__/
+*.pyc
+.vscode/
+*.txt
+*.mp4
+*.mp3
+*.wav
